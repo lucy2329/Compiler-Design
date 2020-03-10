@@ -1,0 +1,357 @@
+Line no: 6 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 6 Token: main, T_IDENTIFIER
+Line no: 6 Token: (, T_OPENFUNC
+Line no: 6 Token: char, T_CHAR
+data_type: char
+in data_type: char
+
+in type: char
+Line no: 6 Token: zz, T_IDENTIFIER
+Line no: 6 Token: ,, T_COMMA
+Line no: 6 Token: char, T_CHAR
+data_type: char
+in data_type: char
+
+in type: char
+Line no: 6 Token: num, T_IDENTIFIER
+Line no: 6 Token: ), T_CLOSEFUNC
+Line no: 6 Token: {, T_OPENFL
+Line no: 7 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 7 Token: x, T_IDENTIFIER
+Line no: 7 Token: ,, T_COMMA
+
+KJASNDKJSAND: x int
+updated symbolt tableIM HAPPENING
+Line no: 7 Token: y, T_IDENTIFIER
+Line no: 7 Token: ,, T_COMMA
+
+KJASNDKJSAND: y int
+updated symbolt tableIM HAPPENING
+Line no: 7 Token: z, T_IDENTIFIER
+Line no: 7 Token: ,, T_COMMA
+
+KJASNDKJSAND: z int
+updated symbolt tableIM HAPPENING
+Line no: 7 Token: z1, T_IDENTIFIER
+Line no: 7 Token: ,, T_COMMA
+
+KJASNDKJSAND: z1 int
+updated symbolt tableIM HAPPENING
+Line no: 7 Token: z2, T_IDENTIFIER
+Line no: 7 Token: ,, T_COMMA
+
+KJASNDKJSAND: z2 int
+updated symbolt tableIM HAPPENING
+Line no: 7 Token: z3, T_IDENTIFIER
+Line no: 7 Token: ;, T_SEMICOLON
+
+KJASNDKJSAND: z3 int
+updated symbolt tableLine no: 8 Token: x, T_IDENTIFIER
+Line no: 8 Token: =, T_ASSIGN
+Line no: 8 Token: 10, T_DEC_CONSTANT
+$$ is: 10.000000
+
+constant: 10.000000
+Line no: 8 Token: ;, T_SEMICOLON
+!!!0
+lhs: x	assignment_expr : 10
+
+assignment_expr: 10.000000
+Line no: 9 Token: if, T_IF
+Line no: 9 Token: (, T_OPENFUNC
+Line no: 9 Token: x, T_IDENTIFIER
+Line no: 9 Token: <, T_LT
+Line no: 9 Token: 5, T_DEC_CONSTANT
+$$ is: 5.000000
+
+constant: 5.000000
+Line no: 9 Token: ), T_CLOSEFUNC
+Line no: 9 Token: {, T_OPENFL
+Line no: 10 Token: y, T_IDENTIFIER
+Line no: 10 Token: =, T_ASSIGN
+Line no: 10 Token: 20, T_DEC_CONSTANT
+$$ is: 20.000000
+
+constant: 20.000000
+Line no: 10 Token: ;, T_SEMICOLON
+!!!-1
+lhs: y	assignment_expr : 20
+
+assignment_expr: 20.000000
+Line no: 11 Token: z1, T_IDENTIFIER
+Line no: 11 Token: =, T_ASSIGN
+Line no: 11 Token: 15, T_DEC_CONSTANT
+$$ is: 15.000000
+
+constant: 15.000000
+Line no: 11 Token: ;, T_SEMICOLON
+!!!0
+lhs: z1	assignment_expr : 15
+
+assignment_expr: 15.000000
+Line no: 12 Token: z2, T_IDENTIFIER
+Line no: 12 Token: =, T_ASSIGN
+Line no: 12 Token: 25, T_DEC_CONSTANT
+$$ is: 25.000000
+
+constant: 25.000000
+Line no: 12 Token: ;, T_SEMICOLON
+!!!-1
+lhs: z2	assignment_expr : 25
+
+assignment_expr: 25.000000
+Line no: 13 Token: z3, T_IDENTIFIER
+Line no: 13 Token: =, T_ASSIGN
+Line no: 13 Token: 33, T_DEC_CONSTANT
+$$ is: 33.000000
+
+constant: 33.000000
+Line no: 13 Token: ;, T_SEMICOLON
+!!!0
+lhs: z3	assignment_expr : 33
+
+assignment_expr: 33.000000
+Line no: 14 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 14 Token: z, T_IDENTIFIER
+Line no: 14 Token: =, T_ASSIGN
+Line no: 14 Token: 5, T_DEC_CONSTANT
+$$ is: 5.000000
+
+constant: 5.000000
+Line no: 14 Token: ;, T_SEMICOLON
+!!!1
+KJASNDKJSAND: z int
+updated symbolt table
+lhs: z	assignment_expr : 5
+
+assignment_expr: 5.000000
+Line no: 15 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 15 Token: z, T_IDENTIFIER
+Line no: 15 Token: =, T_ASSIGN
+Line no: 15 Token: 10, T_DEC_CONSTANT
+$$ is: 10.000000
+
+constant: 10.000000
+Line no: 15 Token: ;, T_SEMICOLON
+!!!1
+KJASNDKJSAND: z int
+Redeclaration Error at line no 15
+
+lhs: z	assignment_expr : 10
+
+assignment_expr: 10.000000
+Line no: 16 Token: z, T_IDENTIFIER
+Line no: 16 Token: =, T_ASSIGN
+Line no: 16 Token: 1234, T_DEC_CONSTANT
+$$ is: 1234.000000
+
+constant: 1234.000000
+Line no: 16 Token: ;, T_SEMICOLON
+!!!0
+lhs: z	assignment_expr : 1234
+
+assignment_expr: 1234.000000
+Line no: 17 Token: }, T_CLOSEFL
+Line no: 18 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 18 Token: x, T_IDENTIFIER
+Line no: 18 Token: ;, T_SEMICOLON
+
+KJASNDKJSAND: x int
+Redeclaration Error at line no 18
+Line no: 26 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 26 Token: asdf, T_IDENTIFIER
+Line no: 26 Token: ;, T_SEMICOLON
+
+KJASNDKJSAND: asdf int
+updated symbolt tableLine no: 27 Token: for, T_FOR
+Line no: 27 Token: (, T_OPENFUNC
+Line no: 27 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 27 Token: monkey, T_IDENTIFIER
+Line no: 27 Token: =, T_ASSIGN
+Line no: 27 Token: 0, T_DEC_CONSTANT
+$$ is: 0.000000
+
+constant: 0.000000
+Line no: 27 Token: ;, T_SEMICOLON
+!!!0
+lhs: monkey	assignment_expr : 0
+
+Error at Line no: 27: Variable doesn't exist
+KJASNDKJSAND: monkey int
+updated symbolt tableLine no: 27 Token: monkey, T_IDENTIFIER
+Line no: 27 Token: <, T_LT
+Line no: 27 Token: 100, T_DEC_CONSTANT
+$$ is: 100.000000
+
+constant: 100.000000
+Line no: 27 Token: ;, T_SEMICOLON
+Line no: 27 Token: monkey, T_IDENTIFIER
+Line no: 27 Token: ++, T_INCREMENT
+Line no: 27 Token: ), T_CLOSEFUNC
+Line no: 27 Token: {, T_OPENFL
+Line no: 28 Token: monkey, T_IDENTIFIER
+Line no: 28 Token: =, T_ASSIGN
+Line no: 28 Token: 99, T_DEC_CONSTANT
+$$ is: 99.000000
+
+constant: 99.000000
+Line no: 28 Token: ;, T_SEMICOLON
+!!!-1
+lhs: monkey	assignment_expr : 99
+
+assignment_expr: 99.000000
+Line no: 29 Token: }, T_CLOSEFL
+Line no: 30 Token: if, T_IF
+Line no: 30 Token: (, T_OPENFUNC
+Line no: 30 Token: z, T_IDENTIFIER
+Line no: 30 Token: <, T_LT
+Line no: 30 Token: 100, T_DEC_CONSTANT
+$$ is: 100.000000
+
+constant: 100.000000
+Line no: 30 Token: ), T_CLOSEFUNC
+Line no: 30 Token: {, T_OPENFL
+Line no: 31 Token: z2, T_IDENTIFIER
+Line no: 31 Token: =, T_ASSIGN
+Line no: 31 Token: 69, T_DEC_CONSTANT
+$$ is: 69.000000
+
+constant: 69.000000
+Line no: 31 Token: ;, T_SEMICOLON
+!!!0
+lhs: z2	assignment_expr : 69
+
+assignment_expr: 69.000000
+Line no: 32 Token: }, T_CLOSEFL
+Line no: 33 Token: else, T_ELSE
+Line no: 33 Token: {, T_OPENFL
+Line no: 34 Token: z1, T_IDENTIFIER
+Line no: 34 Token: =, T_ASSIGN
+Line no: 34 Token: 24, T_DEC_CONSTANT
+$$ is: 24.000000
+
+constant: 24.000000
+Line no: 34 Token: ;, T_SEMICOLON
+!!!-1
+lhs: z1	assignment_expr : 24
+
+assignment_expr: 24.000000
+Line no: 35 Token: }, T_CLOSEFL
+Line no: 36 Token: while, T_WHILE
+Line no: 36 Token: (, T_OPENFUNC
+Line no: 36 Token: z, T_IDENTIFIER
+Line no: 36 Token: <, T_LT
+Line no: 36 Token: 10, T_DEC_CONSTANT
+$$ is: 10.000000
+
+constant: 10.000000
+Line no: 36 Token: ), T_CLOSEFUNC
+Line no: 36 Token: {, T_OPENFL
+Line no: 37 Token: z, T_IDENTIFIER
+Line no: 37 Token: =, T_ASSIGN
+Line no: 37 Token: 1000, T_DEC_CONSTANT
+$$ is: 1000.000000
+
+constant: 1000.000000
+Line no: 37 Token: ;, T_SEMICOLON
+!!!0
+lhs: z	assignment_expr : 1000
+
+assignment_expr: 1000.000000
+Line no: 38 Token: }, T_CLOSEFL
+Line no: 39 Token: }, T_CLOSEFL
+Line no: 41 Token: int, T_INT
+data_type: int
+in data_type: int
+
+in type: int
+Line no: 41 Token: foo, T_IDENTIFIER
+Line no: 41 Token: (, T_OPENFUNC
+Line no: 41 Token: char, T_CHAR
+data_type: char
+in data_type: char
+
+in type: char
+Line no: 41 Token: ghjkl, T_IDENTIFIER
+Line no: 41 Token: ), T_CLOSEFUNC
+Line no: 41 Token: {, T_OPENFL
+Line no: 43 Token: }, T_CLOSEFL
+
+Parsing complete
+====================================================================================================
+					SYMBOL TABLE					
+====================================================================================================
+Name		Token			Data_type	Value		Line_no		Scope
+main				int_function				6		0		
+{		T_OPENFL		N/A		{		6		0		
+x		T_IDENTIFIER		int		10		7		1		
+y		T_IDENTIFIER		int		20		7		1		
+z		T_IDENTIFIER		int		1000		7		1		
+z1		T_IDENTIFIER		int		24		7		1		
+z2		T_IDENTIFIER		int		69		7		1		
+z3		T_IDENTIFIER		int		33		7		1		
+-		T_DEC_CONSTANT		N/A		10		8		1		
+-		T_DEC_CONSTANT		N/A		5		9		1		
+{		T_OPENFL		N/A		{		9		1		
+-		T_DEC_CONSTANT		N/A		20		10		2		
+-		T_DEC_CONSTANT		N/A		15		11		2		
+-		T_DEC_CONSTANT		N/A		25		12		2		
+-		T_DEC_CONSTANT		N/A		33		13		2		
+-		T_DEC_CONSTANT		N/A		5		14		2		
+z		T_IDENTIFIER		int		1234		14		2		
+-		T_DEC_CONSTANT		N/A		10		15		2		
+-		T_DEC_CONSTANT		N/A		1234		16		2		
+}		T_CLOSEFL		N/A		}		17		1		
+asdf		T_IDENTIFIER		int				26		1		
+-		T_DEC_CONSTANT		N/A		0		27		1		
+monkey		T_IDENTIFIER		int		99		27		1		
+-		T_DEC_CONSTANT		N/A		100		27		1		
+{		T_OPENFL		N/A		{		27		1		
+-		T_DEC_CONSTANT		N/A		99		28		2		
+}		T_CLOSEFL		N/A		}		29		1		
+-		T_DEC_CONSTANT		N/A		100		30		1		
+{		T_OPENFL		N/A		{		30		1		
+-		T_DEC_CONSTANT		N/A		69		31		2		
+}		T_CLOSEFL		N/A		}		32		1		
+{		T_OPENFL		N/A		{		33		1		
+-		T_DEC_CONSTANT		N/A		24		34		2		
+}		T_CLOSEFL		N/A		}		35		1		
+-		T_DEC_CONSTANT		N/A		10		36		1		
+{		T_OPENFL		N/A		{		36		1		
+-		T_DEC_CONSTANT		N/A		1000		37		2		
+}		T_CLOSEFL		N/A		}		38		1		
+}		T_CLOSEFL		N/A		}		39		0		
+foo				int_function				41		0		
+{		T_OPENFL		N/A		{		41		0		
+}		T_CLOSEFL		N/A		}		43		0		
+41
+AST
+: starter,  builder1,  main,  function,  parameters,  num,  ,,  zz,  compound_statement,  new statement,  single_statement,  int,  declaration1,  declaration_list,  x,  ,,  y,  ,,  z,  ,,  z1,  ,,  z2,  ,,  z3,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  x,  =,  10,  new statement,  single_statement,  expression,  x,  <,  5,  if,  comp_statement,  compound_statement,  z3,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  y,  =,  20,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z1,  =,  15,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z2,  =,  25,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z3,  =,  33,  new statement,  single_statement,  int,  declaration1,  declaration_list,  assignment,  z,  =,  5,  new statement,  single_statement,  int,  declaration1,  declaration_list,  assignment,  z,  =,  10,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z,  =,  1234,  new statement,  single_statement,  int,  declaration1,  declaration_list,  x,  new statement,  single_statement,  int,  declaration1,  declaration_list,  asdf,  new statement,  single_statement,  expression_stmt,  expression,  int,  monkey,  =,  0,  X_DUMMY,  expression_stmt,  expression,  monkey,  <,  100,  Y_DUMMY,  expression,  unary_expression,  monkey,  ++,  for,  comp_statement,  compound_statement,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  monkey,  =,  99,  new statement,  single_statement,  expression,  z,  <,  100,  if,  comp_statement,  compound_statement,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z2,  =,  69,  else,  comp_statement,  compound_statement,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z1,  =,  24,  new statement,  single_statement,  expression,  z,  <,  10,  while,  comp_statement,  compound_statement,  new statement,  single_statement,  declaration2,  declaration_list,  assignment,  z,  =,  1000, 

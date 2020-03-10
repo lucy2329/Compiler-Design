@@ -1,0 +1,1 @@
+{digit}+({letter}|_)+	        {printf("Line %3d: Illegal identifier name %s\n", yylineno, yytext);}
