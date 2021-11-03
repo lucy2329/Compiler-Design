@@ -1,2 +1,2 @@
 # Compiler-Design
-TRYING to make a compiler
+A complete compiler as part of my compiler-design course
